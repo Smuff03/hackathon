@@ -30,7 +30,7 @@ const Landing = () => {
                             </div>
                         </div>
                         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-                            <img src={hero} alt="heroimage" />
+                            <img src="Flex.png" alt="heroimage" />
                         </div>
                     </div>
                 </section>
@@ -128,16 +128,7 @@ const Landing = () => {
                             <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Our rigorous security and compliance standards are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
                             <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
                                 <div>
-                                    <a href="/" className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
-                                        Explore Legality Guide
-                                        <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                    </a>
-                                </div>
-                                <div>
-                                    <a href="/" className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700">
-                                        Visit the Trust Center
-                                        <svg className="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                                    </a>
+
                                 </div>
                             </div>
                         </div>
@@ -185,6 +176,9 @@ const Landing = () => {
                         </figure>
                     </div>
                 </section>
+                
+                <footer className="bg-white dark:bg-gray-800">
+                    <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
 
                 
                 <section className="bg-white dark:bg-gray-900">
@@ -255,25 +249,15 @@ const Landing = () => {
                     </div>
                 </section>
 
-                <section className="bg-gray-50 dark:bg-gray-800">
-                    <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-16 lg:px-6">
-                        <div className="max-w-screen-sm mx-auto text-center">
-                            <h2 className="mb-4 text-3xl font-extrabold leading-tight tracking-tight text-gray-900 dark:text-white">Start your free trial today</h2>
-                            <p className="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">Try Landwind Platform for 30 days. No credit card required.</p>
-                            <a href="/" className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Free trial for 30 days</a>
-                        </div>
-                    </div>
-                </section>
-                <footer className="bg-white dark:bg-gray-800">
-                    <div className="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
+                
 
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                         <div className="text-center">
                             <a href="/" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                                <img src="./images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+                                <img src="eflux.png" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
                                 E-flux
                             </a>
-                            <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2022-2023 E-flux™. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
+                            <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2022-2023 E-flux™. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Eflux</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
                             </span>
                             <ul className="flex justify-center mt-5 space-x-5">
                                 <li>
