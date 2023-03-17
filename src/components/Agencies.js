@@ -9,7 +9,37 @@ const Agiencies = () => {
   console.log(agency)
   return (
     <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
+      <img alt="feature" class="object-cover object-center h-full w-full" src="caragency.jpg"></img>
+    </div>
+    <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+      <div class="flex flex-col mb-10 lg:items-start items-center">
+        
+        <div class="flex-grow">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Rent a car</h2>
+          <p class="leading-relaxed text-base">We have provided you these facility for you to rent a car whenever you require without wasting your time in surfing.You can rent any car you see fit by talking to the owner from the information provided to you by these website.Car rental services are usually provided by companies that own or lease a fleet of vehicles, which are made available to customers for hire. This can be a convenient option for people who need a vehicle for a short period of time, whether it be for business or leisure purposes. Car rental companies typically have a range of vehicles available to suit different needs and budgets, and may offer additional services such as insurance and roadside assistance</p>
+
+        </div>
+      </div>
+      <div class="flex flex-col mb-10 lg:items-start items-center">
+        
+        <div class="flex-grow">
+          <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Lend your car</h2>
+          <p class="leading-relaxed text-base">Lending a car involves temporarily giving someone else permission to use your vehicle.When lending a car, it's important to ensure that the borrower has a valid driver's license and is insured to drive the vehicle. It's also a good idea to make sure they are familiar with the car's features and any specific driving instructions or guidelines.It's important to note that when you lend your car to someone else, you are also lending your car insurance coverage. If the borrower gets into an accident while driving your car, it could affect your insurance rates and coverage in the future. Therefore, it's important to trust the borrower and to have clear communication about the expectations and responsibilities involved in lending your car.</p>
+          <a class="mt-3 text-indigo-500 inline-flex items-center">Learn More
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</section>
+      <div className="container px-5 py-15 mx-auto">
         <h1 className='text-2xl font-bold text-slate-500 mb-5'>Cafe Agencies near your current location :-</h1>
         <div className="flex flex-wrap -m-4">
 
