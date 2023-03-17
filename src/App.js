@@ -24,6 +24,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Datastate from './context/datastate';
 import Downnav from './components/Downnav';
+import Faq from './components/Faq';
+import Help from './components/Help';
 function App() {
   // const [viewport, setViewport] = useState({
   //   latitude: 45.4211,
@@ -53,6 +55,11 @@ function App() {
               <Navbar /><Cafe /><Downnav/></>} />
             <Route path="/mechanic" element={<>
               <Navbar /><Mechanic /><Downnav/></>} />
+              
+            <Route path="/faq" element={<>
+              <Navbar /><Faq/><Downnav/></>} />
+            <Route path="/help" element={<>
+              <Navbar /><Help/><Downnav/></>} />
             <Route path="/chargingpoint/:chargingpoint" element={<>
               <Navbar /><Particularchargingstation /><Downnav/></>} />
             <Route path="/agencies/:agencies" element={<>

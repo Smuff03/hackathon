@@ -89,25 +89,18 @@ const Landing = () => {
                                 </ul>
                                 <p className="mb-8 font-light lg:text-xl">Deliver great service experiences fast - without consuming time and more resources.</p>
                             </div>
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/feature-1.png" alt="dashboard feature image" />
+                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="powerstation.png" alt="dashboard feature image" />
                         </div>
 
                         <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/feature-2.png" alt="feature image 2" />
+                            <img className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="greenenergy.jpg" alt="feature image 2" />
                             <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                                 <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Reinvent the Green Energy</h2>
                                 <p className="mb-8 font-light lg:text-xl">We make it easy for electric vehicle owners to charge their vehicles and try to provide them the best facility that can promote the use of electric vehicles, through which we can save green Energy
                                     and avoid wastage of natural resources. </p>
 
                                 <ul role="list" className="pt-8 space-y-5 border-t border-gray-200 my-7 dark:border-gray-700">
-                                    <li className="flex space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Dynamic reports and dashboards</span>
-                                    </li>
-                                    <li className="flex space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                                        <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Templates for everyone</span>
-                                    </li>
+                                 
                                     <li className="flex space-x-3">
                                         <svg className="flex-shrink-0 w-5 h-5 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
                                         <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">User-friendly UI</span>
@@ -121,7 +114,7 @@ const Landing = () => {
                                         <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">Knowledge management</span>
                                     </li>
                                 </ul>
-                                <p className="font-light lg:text-xl">Deliver great service experiences fast - without the complexity of traditional ITSM solutions.</p>
+                                
                             </div>
                         </div>
                     </div>
@@ -151,8 +144,8 @@ const Landing = () => {
                         <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                             <div>
                                 <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2V5zm14 1a1 1 0 11-2 0 1 1 0 012 0zM2 13a2 2 0 012-2h12a2 2 0 012 2v2a2 2 0 01-2 2H4a2 2 0 01-2-2v-2zm14 1a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd"></path></svg>
-                                <h3 className="mb-2 text-2xl font-bold dark:text-white">99.99% uptime</h3>
-                                <p className="font-light text-gray-500 dark:text-gray-400">For Landwind, with zero maintenance downtime</p>
+                                <h3 className="mb-2 text-2xl font-bold dark:text-white">Prebook your charging slot</h3>
+                                <p className="font-light text-gray-500 dark:text-gray-400">For eflux, with zero maintenance downtime</p>
                             </div>
                             <div>
                                 <svg className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path></svg>
@@ -193,116 +186,7 @@ const Landing = () => {
                     </div>
                 </section>
 
-                <section className="bg-white dark:bg-gray-900">
-                    <div className="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
-                        <div className="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
-                            <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">Designed for business teams like yours</h2>
-                            <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Landwind we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
-                        </div>
-                        <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-
-                            <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                                <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
-                                <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p>
-                                <div className="flex items-baseline justify-center my-8">
-                                    <span className="mr-2 text-5xl font-extrabold">$29</span>
-                                    <span className="text-gray-500 dark:text-gray-400">/month</span>
-                                </div>
-
-                                <ul role="list" className="mb-8 space-y-4 text-left">
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Individual configuration</span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>No setup, or hidden fees</span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Team size: <span className="font-semibold">1 developer</span></span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Premium support: <span className="font-semibold">6 months</span></span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Free updates: <span className="font-semibold">6 months</span></span>
-                                    </li>
-                                </ul>
-                                <a href="/" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get started</a>
-                            </div>
-
-                            <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                                <h3 className="mb-4 text-2xl font-semibold">Company</h3>
-                                <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
-                                <div className="flex items-baseline justify-center my-8">
-                                    <span className="mr-2 text-5xl font-extrabold">$99</span>
-                                    <span className="text-gray-500  dark:text-gray-400">/month</span>
-                                </div>
-
-                                <ul role="list" className="mb-8 space-y-4 text-left">
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Individual configuration</span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>No setup, or hidden fees</span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Team size: <span className="font-semibold">10 developers</span></span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Premium support: <span className="font-semibold">24 months</span></span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Free updates: <span className="font-semibold">24 months</span></span>
-                                    </li>
-                                </ul>
-                                <a href="/" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get started</a>
-                            </div>
-
-                            <div className="flex flex-col max-w-lg p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                                <h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
-                                <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best for large scale uses and extended redistribution rights.</p>
-                                <div className="flex items-baseline justify-center my-8">
-                                    <span className="mr-2 text-5xl font-extrabold">$499</span>
-                                    <span className="text-gray-500 dark:text-gray-400">/month</span>
-                                </div>
-
-                                <ul role="list" className="mb-8 space-y-4 text-left">
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Individual configuration</span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>No setup, or hidden fees</span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Team size: <span className="font-semibold">100+ developers</span></span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Premium support: <span className="font-semibold">36 months</span></span>
-                                    </li>
-                                    <li className="flex items-center space-x-3">
-                                        <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                                        <span>Free updates: <span className="font-semibold">36 months</span></span>
-                                    </li>
-                                </ul>
-                                <a href="/" className="text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-purple-900">Get started</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+                
                 <section className="bg-white dark:bg-gray-900">
                     <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
                         <h2 className="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Frequently asked questions</h2>
@@ -357,7 +241,7 @@ const Landing = () => {
                                 </h3>
                                 <div id="accordion-flush-body-4" className="hidden" aria-labelledby="accordion-flush-heading-4">
                                     <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                                        <p className="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Landwind are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Landwind relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+                                        <p className="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from eflux are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Landwind relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Landwind, Landwind Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
                                         <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
                                         <ul className="pl-5 text-gray-500 list-disc dark:text-gray-400">
@@ -387,9 +271,9 @@ const Landing = () => {
                         <div className="text-center">
                             <a href="/" className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
                                 <img src="./images/logo.svg" className="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
-                                Landwind
+                                E-flux
                             </a>
-                            <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2021-2022 Landwind™. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
+                            <span className="block text-sm text-center text-gray-500 dark:text-gray-400">© 2022-2023 E-flux™. All Rights Reserved. Built with <a href="https://flowbite.com" className="text-purple-600 hover:underline dark:text-purple-500">Flowbite</a> and <a href="https://tailwindcss.com" className="text-purple-600 hover:underline dark:text-purple-500">Tailwind CSS</a>.
                             </span>
                             <ul className="flex justify-center mt-5 space-x-5">
                                 <li>

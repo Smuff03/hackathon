@@ -1,0 +1,58 @@
+import React from 'react'
+
+const Help = () => {
+  return (
+    <div>
+      <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-2xl font-medium title-font mb-5 text-gray-900 tracking-widest">Help Centre</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">All the answers are right here. You just need to ask</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/bookingslot.jpg"></img>
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Booking of slot for charging EV</h2>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="mechanic.jpg"></img>
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Get the help of mechanic</h2>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+        
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="/evcharger.jpg"></img>
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Navigate nearby charging stations</h2>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="rentcar.png"></img>
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">Need a car on a rent</h2>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+  )
+}
+
+export default Help
